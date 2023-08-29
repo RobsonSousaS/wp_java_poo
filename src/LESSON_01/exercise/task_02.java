@@ -15,9 +15,9 @@ public class task_02 {
             System.out.println("Digite a quantidade de parcelas:");
             qntdeparcelas = enter.nextInt();
             if (qntdeparcelas <= 18 && qntdeparcelas >= 1) {
-                int resto = val % qntdeparcelas;
+                int rest = val % qntdeparcelas;
                 int cont = 1;
-                if (resto == 0) {
+                if (rest == 0) {
                     while (cont < qntdeparcelas) {
                         int parcela = val / qntdeparcelas;
                         System.out.println(parcela);
@@ -26,10 +26,10 @@ public class task_02 {
                 } else {
                     while (cont <= qntdeparcelas) {
                         int parcela = val / qntdeparcelas;
-                        if (cont > resto) {
+                        if (cont > rest) {
                             System.out.println(parcela);
                         } else {
-                            System.out.println(parcela + resto / resto);
+                            System.out.println(parcela + rest / rest);
                         }
                         cont++;
                     }
