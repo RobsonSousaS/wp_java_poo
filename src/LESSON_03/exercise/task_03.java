@@ -15,8 +15,27 @@ retornaVoo Retorna o número do vôo
 retornaData Retorna a data do vôo (na forma de objeto)
  */
 
+
 package LESSON_03.exercise;
 
+import java.sql.Date;
+
 public class task_03 {
-    
+  public static void main(String[] args) {
+        // Exemplo de uso da classe Voo
+        Date dataVoo = new Date(0, 0, 0);
+        Voo voo = new Voo(101, dataVoo);
+
+        int proximaCadeiraLivre = voo.proximoLivre();
+        System.out.println("Próxima cadeira livre: " + proximaCadeiraLivre);
+
+        boolean ocupada = voo.ocupa(3);
+        System.out.println("Cadeira 3 ocupada: " + ocupada);
+
+        ocupada = voo.ocupa(3);
+        System.out.println("Cadeira 3 ocupada: " + ocupada);
+
+        int vagasDisponiveis = voo.retornaVagas();
+        System.out.println("Vagas disponíveis: " + vagasDisponiveis);
+    }
 }
