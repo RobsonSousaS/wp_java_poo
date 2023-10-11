@@ -17,14 +17,6 @@ class Aluno {
     public Aluno(String matricula, String nome) {
         this.matricula = matricula;
         this.nome = nome;
-        this.notaEtapa1Avaliacao1 = 0.0;
-        this.notaEtapa1Avaliacao2 = 0.0;
-        this.notaEtapa2Avaliacao1 = 0.0;
-        this.notaEtapa2Avaliacao2 = 0.0;
-        this.mediaEtapa1 = 0.0;
-        this.mediaEtapa2 = 0.0;
-        this.mediaFinal = 0.0;
-        this.resultadoFinal = "";
     }
 
     public void calculaMediaPorEtapa(double pesoAvaliacao1, double pesoAvaliacao2) {
