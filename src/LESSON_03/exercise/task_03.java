@@ -22,7 +22,6 @@ import java.sql.Date;
 
 public class task_03 {
   public static void main(String[] args) {
-        // Exemplo de uso da classe Voo
         Date dataVoo = new Date(0, 0, 0);
         Voo voo = new Voo(101, dataVoo);
 
