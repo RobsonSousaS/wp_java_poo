@@ -26,7 +26,7 @@ public class Veiculo {
     }
 
     public void exibeDados() {
-        System.out.println("Placa: " + this.getPlaca() + "Ano: " + getAno());
+        System.out.println(" Placa: " + this.getPlaca() + " Ano: " + getAno());
 
     }
 
