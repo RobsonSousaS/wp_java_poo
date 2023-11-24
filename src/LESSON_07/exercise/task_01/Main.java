@@ -1,6 +1,6 @@
 package LESSON_07.exercise.task_01;
 
-public class Teste {
+public class Main {
     public static void main(String[] args) {
         Triangulo triangulo = new Triangulo(12.3, 12.0, "vemelho");
         Quadrado quadrado = new Quadrado(3, 12, "rosa");
