@@ -11,9 +11,11 @@ public class Main {
         contaCorrente.saca(50);
         System.out.println(contaCorrente.toString());
         contaPoupanca.deposita(100);
+        System.out.println("---------------------------------------");
         System.out.println(contaPoupanca.toString());
         contaPoupanca.saca(50);
         System.out.println(contaPoupanca.toString());
+        System.out.println("---------------------------------------");
         seguroDeVida.deposita(100);
         System.out.println(seguroDeVida.toString());
         seguroDeVida.saca(50);
